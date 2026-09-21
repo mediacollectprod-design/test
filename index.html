@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0c16">
+<title>Clean Minds Films — Production cinématographique et exécutive au Maroc</title>
+<meta name="description" content="Clean Minds Films, société de production et de production exécutive basée à Ouarzazate, Maroc. Autorisations CCM, repérages, équipes, régie et logistique pour tournages internationaux.">
+<meta property="og:title" content="Clean Minds Films — Production exécutive au Maroc">
+<meta property="og:description" content="Repérages, autorisations CCM, équipes et régie tout-terrain pour vos tournages à Ouarzazate et dans le Sud marocain.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Clean Minds Films","description":"Société de production et de production exécutive cinématographique au Maroc.","foundingDate":"2019","telephone":"+212662131197","email":"bouhalbamustapha@gmail.com","address":{"@type":"PostalAddress","streetAddress":"N° 89 Hay Mohammadi","addressLocality":"Ouarzazate","addressCountry":"MA"}}
+</script>
+
+<style>
+*,*::before,*::after{box-sizing:border-box}
+*{margin:0}
+:root{
+  --bg:#0a0c16;
+  --surface:#0f1220;
+  --raised:#161a2e;
+  --line:rgba(239,228,207,.11);
+  --line2:rgba(239,228,207,.2);
+  --text:#efe4cf;
+  --mute:#a7a596;
+  --gold:#d8b070;
+  --gold2:#f0d3a0;
+  --ember:#e0703a;
+  --r:4px;
+  --display:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;
+  --body:'Instrument Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 84px);-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font:400 16px/1.65 var(--body);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+::selection{background:var(--gold);color:#120e08}
+a{color:inherit}
+img,canvas,svg{display:block;max-width:100%}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,52px)}
+.sec{padding:clamp(80px,11vw,150px) 0;border-top:1px solid var(--line)}
+.alt{background:var(--surface)}
+
+/* Type */
+.h2{font:800 clamp(2.5rem,5.6vw,4.8rem)/.94 var(--display);letter-spacing:-.005em}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:clamp(40px,6vw,72px)}
+.head p{max-width:420px;color:var(--mute);font-size:15.5px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:var(--r);font:600 14px/1 var(--body);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.gold{background:var(--gold);color:#120e08}
+.gold:hover{background:var(--gold2);transform:translateY(-2px)}
+.ghost{border-color:var(--line2);color:var(--text);background:rgba(255,255,255,.03)}
+.ghost:hover{border-color:var(--gold);color:var(--gold2)}
+
+/* Nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:60;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid transparent;transition:background .3s,border-color .3s}
+.nav.solid{background:rgba(10,12,22,.78);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-color:var(--line)}
+.nav .in{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.mark{width:34px;height:34px;position:relative;display:grid;place-items:center;flex:none}
+.mark::before,.mark::after{content:'';position:absolute;width:11px;height:11px;border:2px solid var(--gold)}
+.mark::before{top:0;left:0;border-right:0;border-bottom:0}
+.mark::after{bottom:0;right:0;border-left:0;border-top:0}
+.mark i{width:8px;height:8px;background:var(--gold);border-radius:50%;box-shadow:0 0 16px var(--gold)}
+.brand b{display:block;font:800 22px/.9 var(--display);letter-spacing:.06em;text-transform:uppercase}
+.brand small{display:block;margin-top:3px;font:500 11.5px/1 var(--body);letter-spacing:.14em;color:var(--gold)}
+.links{display:flex;gap:2px}
+.links a{padding:9px 14px;font:500 14px/1 var(--body);color:var(--mute);text-decoration:none;border-radius:var(--r);transition:color .2s,background .2s}
+.links a:hover,.links a.on{color:var(--text);background:rgba(255,255,255,.06)}
+.nav .btn{padding:12px 20px}
+.burger{display:none;width:44px;height:44px;background:none;border:0;color:var(--text);cursor:pointer;position:relative}
+.burger i{position:absolute;left:11px;right:11px;height:2px;background:currentColor;transition:transform .3s,top .3s}
+.burger i:nth-child(1){top:16px}.burger i:nth-child(2){top:26px}
+.burger[aria-expanded=true] i:nth-child(1){top:21px;transform:rotate(45deg)}
+.burger[aria-expanded=true] i:nth-child(2){top:21px;transform:rotate(-45deg)}
+.drawer{position:fixed;inset:0;z-index:55;background:rgba(10,12,22,.98);padding:calc(100px + env(safe-area-inset-top,0px)) 28px calc(28px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;justify-content:space-between;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+.drawer.open{opacity:1;visibility:visible}
+.drawer nav{display:grid;gap:4px}
+.drawer nav a{font:800 clamp(2.4rem,11vw,3.6rem)/1.05 var(--display);text-decoration:none;color:var(--text)}
+.drawer nav a:hover{color:var(--gold)}
+.drawer p{color:var(--mute);font-size:14px}
+
+
+
+/* Language switcher */
+.lang-switch{display:inline-flex;align-items:center;gap:3px;padding:3px;border:1px solid var(--line2);border-radius:999px;background:rgba(10,12,22,.5);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);flex:none}
+.lang-btn{min-width:36px;height:30px;padding:0 9px;border:0;border-radius:999px;background:transparent;color:var(--mute);font:600 11px/1 var(--mono);letter-spacing:.08em;cursor:pointer;transition:background .22s,color .22s,transform .22s}
+.lang-btn:hover{color:var(--text)}
+.lang-btn.on{background:var(--gold);color:#120e08}
+.drawer .lang-switch{align-self:flex-start;margin:26px 0 16px}
+
+/* Arabic / RTL */
+html[dir="rtl"] body{direction:rtl;text-align:right;font-family:'Noto Sans Arabic',var(--body)}
+html[dir="rtl"] .brand,html[dir="rtl"] .hud,html[dir="rtl"] .legal,html[dir="rtl"] .coords{direction:ltr;text-align:left}
+html[dir="rtl"] .h1,html[dir="rtl"] .h2,html[dir="rtl"] .sh-row h3,html[dir="rtl"] .terr h3,html[dir="rtl"] .prow h3,html[dir="rtl"] .step h3,html[dir="rtl"] .big,html[dir="rtl"] .step .n{font-family:'Noto Sans Arabic',sans-serif;letter-spacing:0}
+html[dir="rtl"] .h1{line-height:.98}
+html[dir="rtl"] .h2{line-height:1.08}
+html[dir="rtl"] .sh-row li{flex-direction:row}
+html[dir="rtl"] .sh-row li::before{transform:translateY(-4px)}
+html[dir="rtl"] .meta{align-items:flex-start}
+html[dir="rtl"] .reel-note,html[dir="rtl"] footer .wrap{direction:rtl}
+html[dir="rtl"] input,html[dir="rtl"] textarea,html[dir="rtl"] form select{text-align:right}
+html[dir="rtl"] input[type=range]{direction:ltr}
+html[dir="rtl"] select{background-position:left 14px center;padding-left:38px;padding-right:14px}
+html[dir="rtl"] .drawer p{text-align:right}
+html[dir="rtl"] .hero-foot,html[dir="rtl"] .contact,html[dir="rtl"] .faq{direction:rtl}
+html[dir="rtl"] .vf .t.b,html[dir="rtl"] .vf .t.d{text-align:left}
+@media(max-width:1020px){.nav .lang-switch{margin-left:auto}.nav .in{gap:12px}}
+@media(max-width:560px){.lang-btn{min-width:32px;padding:0 7px}.brand small{display:none}.brand b{font-size:19px}.nav .in{gap:8px}}
+
+/* Hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:130px 0 44px;overflow:hidden;isolation:isolate}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-2}
+.hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,12,22,.6) 0%,rgba(10,12,22,0) 28%,rgba(10,12,22,.1) 55%,var(--bg) 100%),radial-gradient(110% 70% at 15% 100%,rgba(10,12,22,.85),transparent 65%)}
+.lb{position:absolute;left:0;right:0;height:17vh;background:#000;z-index:5;pointer-events:none;animation:lb 2s .35s cubic-bezier(.7,0,.2,1) forwards}
+.lb.t{top:0}.lb.b{bottom:0}
+@keyframes lb{to{height:0}}
+.hud{position:absolute;z-index:4;right:clamp(20px,4vw,52px);top:calc(96px + env(safe-area-inset-top,0px));display:flex;align-items:center;gap:12px;font:400 12px/1 var(--mono);letter-spacing:.1em;color:rgba(255,255,255,.85)}
+.rec{width:9px;height:9px;border-radius:50%;background:#e5322d;animation:blink 1.6s steps(2,jump-none) infinite}
+@keyframes blink{50%{opacity:.15}}
+.h1{font:900 clamp(4.2rem,17vw,15.5rem)/.82 var(--display);letter-spacing:-.012em;text-transform:uppercase}
+.h1 .ln{display:block;overflow:hidden;padding-top:.04em}
+.h1 .ln>span{display:block;transform:translateY(105%);animation:up 1.2s cubic-bezier(.16,1,.3,1) forwards}
+.h1 .ln:nth-child(1)>span{animation-delay:1s}
+.h1 .ln:nth-child(2)>span{animation-delay:1.14s}
+.h1 .ln:nth-child(3)>span{animation-delay:1.28s}
+@keyframes up{to{transform:none}}
+.hero-foot{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(24px,5vw,72px);align-items:end;margin-top:clamp(28px,4vw,48px);padding-top:28px;border-top:1px solid var(--line2)}
+.lead{font-size:clamp(1rem,1.5vw,1.2rem);color:#d8d0bf;max-width:60ch}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin-top:22px;font-size:14px;color:var(--mute)}
+.facts span{padding-right:18px;margin-right:18px;border-right:1px solid var(--line2)}
+.facts span:last-child{border:0;margin:0;padding:0}
+.cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end}
+
+/* Call sheet (services) */
+.sheet{border-top:2px solid var(--text)}
+.sh-head,.sh-row{display:grid;grid-template-columns:1fr 1.35fr 1fr;gap:clamp(20px,4vw,56px)}
+.sh-head{padding:14px 0;border-bottom:1px solid var(--line2);font-size:13px;color:var(--mute);font-weight:500}
+.sh-row{padding:clamp(26px,3.4vw,42px) 0;border-bottom:1px solid var(--line);align-items:start}
+.sh-row h3{font:800 clamp(1.9rem,3vw,2.7rem)/.95 var(--display)}
+.sh-row p{color:#c9c2b0;font-size:15.5px;max-width:52ch}
+.sh-row ul{list-style:none;padding:0;display:grid;gap:8px;font-size:14.5px}
+.sh-row li{display:flex;gap:10px;align-items:baseline}
+.sh-row li::before{content:'';flex:none;width:12px;height:1px;background:var(--gold);transform:translateY(-4px)}
+.sh-row.key h3{color:var(--gold)}
+
+/* Viewfinder */
+.vf{position:relative;aspect-ratio:2.39/1;border-radius:var(--r);overflow:hidden;border:1px solid var(--line2);background:#000}
+.vf canvas{width:100%;height:100%}
+.vf::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55) 100%);pointer-events:none}
+.corner{position:absolute;width:30px;height:30px;border:2px solid rgba(255,255,255,.8);z-index:2}
+.corner.tl{top:22px;left:22px;border-right:0;border-bottom:0}.corner.tr{top:22px;right:22px;border-left:0;border-bottom:0}
+.corner.bl{bottom:22px;left:22px;border-right:0;border-top:0}.corner.br{bottom:22px;right:22px;border-left:0;border-top:0}
+.reticle{position:absolute;left:50%;top:50%;width:64px;height:64px;margin:-32px 0 0 -32px;z-index:2;opacity:.75}
+.reticle::before,.reticle::after{content:'';position:absolute;background:#fff}
+.reticle::before{left:50%;top:0;bottom:0;width:1px;margin-left:-.5px;mask:linear-gradient(#000 0 38%,transparent 38% 62%,#000 62%);-webkit-mask:linear-gradient(#000 0 38%,transparent 38% 62%,#000 62%)}
+.reticle::after{top:50%;left:0;right:0;height:1px;margin-top:-.5px;mask:linear-gradient(90deg,#000 0 38%,transparent 38% 62%,#000 62%);-webkit-mask:linear-gradient(90deg,#000 0 38%,transparent 38% 62%,#000 62%)}
+.vf .t{position:absolute;z-index:3;font:400 12px/1.2 var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.9)}
+.vf .t.a{top:30px;left:64px;display:flex;align-items:center;gap:10px}
+.vf .t.b{top:30px;right:64px;text-align:right}
+.vf .t.c{bottom:30px;left:64px}
+.vf .t.d{bottom:30px;right:64px;text-align:right}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+.chip{position:relative;text-align:left;padding:16px 18px 20px;background:var(--raised);border:1px solid var(--line);border-radius:var(--r);color:var(--mute);cursor:pointer;font:500 13px/1.3 var(--body);transition:border-color .25s,color .25s}
+.chip b{display:block;font:800 22px/1 var(--display);color:var(--text);margin-bottom:4px}
+.chip:hover{border-color:var(--line2)}
+.chip.on{border-color:var(--gold);color:var(--text)}
+.chip .bar{position:absolute;left:0;right:0;bottom:0;height:3px;background:transparent;overflow:hidden}
+.chip .bar i{display:block;height:100%;width:0;background:var(--gold)}
+.chip.on .bar i{animation:fill 6.5s linear forwards}
+@keyframes fill{to{width:100%}}
+.reel-note{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-top:28px;color:var(--mute);font-size:14px}
+
+/* Territory */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tab{padding:12px 20px;border-radius:var(--r);border:1px solid var(--line2);background:transparent;color:var(--mute);font:600 14px/1 var(--body);cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.tab:hover{color:var(--text);border-color:var(--text)}
+.tab.on{background:var(--gold);color:#120e08;border-color:var(--gold)}
+.terr{display:grid;grid-template-columns:.9fr 1.1fr;border:1px solid var(--line2);border-radius:var(--r);overflow:hidden;background:var(--bg)}
+.terr .txt{padding:clamp(26px,4vw,52px);display:flex;flex-direction:column;gap:22px;justify-content:center}
+.terr h3{font:800 clamp(2.2rem,4vw,3.4rem)/.95 var(--display)}
+.terr .desc{color:#c9c2b0;max-width:52ch}
+.vis{position:relative;min-height:420px}
+.vis canvas{position:absolute;inset:0;width:100%;height:100%}
+.coords{position:absolute;left:20px;bottom:16px;font:400 12px/1 var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.85);z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-top:22px;border-top:1px solid var(--line)}
+.stats small{display:block;font-size:13px;color:var(--mute);margin-bottom:4px}
+.stats b{font:800 22px/1.05 var(--display)}
+.loctags{display:flex;flex-wrap:wrap;gap:8px}
+.loctags span{font-size:13px;padding:6px 12px;border:1px solid var(--line2);border-radius:99px;color:var(--gold2)}
+.fade{transition:opacity .22s,transform .22s}
+.fade.out{opacity:0;transform:translateY(8px)}
+
+/* Rebate */
+.calc{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(28px,6vw,90px);align-items:center}
+.calc .h2{margin-bottom:22px}
+.calc .txt p{color:var(--mute);max-width:46ch;margin-bottom:14px}
+.panel{background:var(--raised);border:1px solid var(--line2);border-radius:var(--r);padding:clamp(26px,4vw,48px);position:relative;overflow:hidden}
+.panel::before{content:'';position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(216,176,112,.22),transparent 70%)}
+.panel>*{position:relative}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:14px;font-size:14px;color:var(--mute)}
+.row output{font:800 28px/1 var(--display);color:var(--text)}
+select{appearance:none;-webkit-appearance:none;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23d8b070' stroke-width='2'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E") no-repeat right 14px center;color:var(--text);border:1px solid var(--line2);border-radius:var(--r);padding:11px 38px 11px 14px;font:500 14px var(--body);cursor:pointer}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:4px;border-radius:9px;background:linear-gradient(90deg,var(--gold) var(--p,20%),rgba(255,255,255,.14) var(--p,20%));outline:none;margin:6px 0 34px;cursor:pointer}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:24px;height:24px;border-radius:50%;background:var(--gold);border:5px solid var(--raised);box-shadow:0 0 0 1px var(--gold)}
+input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:var(--gold);border:5px solid var(--raised);box-shadow:0 0 0 1px var(--gold)}
+.res{padding-top:26px;border-top:1px solid var(--line2)}
+.res small{font-size:14px;color:var(--mute)}
+.big{font:900 clamp(3rem,7vw,5.4rem)/.95 var(--display);color:var(--gold);margin:4px 0 22px;font-variant-numeric:tabular-nums}
+.split{display:flex;height:10px;border-radius:2px;overflow:hidden;background:rgba(255,255,255,.1)}
+.split i{display:block;width:30%;background:var(--gold)}
+.legend{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-size:13.5px;color:var(--mute);font-variant-numeric:tabular-nums}
+.legend b{color:var(--text);font-weight:600}
+.fine{font-size:12.5px;color:var(--mute);margin-top:22px;line-height:1.5}
+
+/* Projects */
+.proj{display:grid;grid-template-columns:1.3fr .7fr;gap:clamp(28px,5vw,72px);align-items:start}
+.plist{border-top:2px solid var(--text)}
+.prow{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;padding:26px 6px;border-bottom:1px solid var(--line);cursor:pointer;transition:padding .35s cubic-bezier(.2,.8,.2,1),background .3s}
+.prow:hover,.prow.on{padding-left:22px;background:linear-gradient(90deg,rgba(216,176,112,.08),transparent)}
+.prow h3{font:800 clamp(1.7rem,3vw,2.6rem)/.98 var(--display);transition:color .25s}
+.prow.on h3{color:var(--gold)}
+.prow p{font-size:14px;color:var(--mute);margin-top:6px}
+.meta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;font-size:13px;color:var(--mute)}
+.pill{padding:5px 12px;border:1px solid var(--line2);border-radius:99px;color:var(--text);white-space:nowrap}
+.poster{position:sticky;top:calc(100px + env(safe-area-inset-top,0px));aspect-ratio:3/4;border-radius:var(--r);overflow:hidden;border:1px solid var(--line2);background:#000}
+.poster canvas{position:absolute;inset:0;width:100%;height:100%}
+.poster .cap{position:absolute;left:0;right:0;bottom:0;padding:70px 24px 24px;background:linear-gradient(0deg,rgba(0,0,0,.88),transparent)}
+.poster .cap b{display:block;font:800 30px/.98 var(--display);margin-bottom:8px}
+.poster .cap span{font-size:13.5px;color:#d8d0bf}
+
+/* Process: clapper slates */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.step{position:relative;background:var(--bg);border:1px solid var(--line2);border-radius:var(--r);padding:44px 24px 26px;overflow:hidden}
+.step::before{content:'';position:absolute;top:0;left:0;right:0;height:16px;background:repeating-linear-gradient(-58deg,var(--text) 0 14px,#12141f 14px 28px)}
+.step .n{font:900 76px/.8 var(--display);color:transparent;-webkit-text-stroke:1.5px var(--gold);margin-bottom:18px}
+.step h3{font:800 25px/1 var(--display);margin-bottom:10px}
+.step p{font-size:14.5px;color:var(--mute)}
+.step ul{list-style:none;padding:0;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);display:grid;gap:6px;font-size:13.5px}
+
+/* FAQ */
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,6vw,90px)}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+details:first-child{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font:600 18px/1.35 var(--body)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';color:var(--gold);font:300 30px/1 var(--body);transition:transform .3s;flex:none}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:14px;color:var(--mute);max-width:62ch}
+
+/* Contact */
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,6vw,90px)}
+.contact .h2{font-size:clamp(3rem,6.4vw,5.8rem);margin-bottom:22px}
+.contact .intro{color:var(--mute);max-width:44ch;margin-bottom:34px}
+.info{display:grid;gap:22px}
+.info div small{display:block;font-size:13px;color:var(--mute);margin-bottom:3px}
+.info a,.info p{font-size:17px;text-decoration:none}
+.info a:hover{color:var(--gold)}
+.legal{margin-top:38px;padding-top:22px;border-top:1px solid var(--line);font:400 12px/1.7 var(--mono);color:var(--mute)}
+.legal b{color:var(--text);font-weight:500}
+form{background:var(--surface);border:1px solid var(--line2);border-radius:var(--r);padding:clamp(24px,4vw,44px);display:grid;gap:20px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+label{display:block;font-size:13.5px;font-weight:500;color:var(--mute);margin-bottom:8px}
+input:not([type=range]),textarea,form select{width:100%;background:var(--bg);border:1px solid var(--line2);border-radius:var(--r);padding:14px 16px;color:var(--text);font:400 15px var(--body);transition:border-color .2s}
+form select{padding-right:40px}
+input::placeholder,textarea::placeholder{color:#6d6f80}
+input:focus,textarea:focus,form select:focus{outline:none;border-color:var(--gold)}
+textarea{resize:vertical;min-height:120px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.actions .btn{flex:1 1 220px}
+.fb{font-size:14px;color:var(--gold2);line-height:1.5}
+footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mute);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{text-decoration:none}footer a:hover{color:var(--gold)}
+
+/* Responsive */
+@media(max-width:1020px){
+  .links,.nav .btn{display:none}.burger{display:block}
+  .hero-foot{grid-template-columns:1fr}.cta{justify-content:flex-start}
+  .terr,.calc,.contact,.faq{grid-template-columns:1fr}
+  .vis{order:-1;min-height:300px}
+  .proj{grid-template-columns:1fr}.poster{display:none}
+  .steps{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  .sh-head{display:none}
+  .sh-row{grid-template-columns:1fr;gap:14px}
+  .chips{grid-template-columns:repeat(2,1fr)}
+  .vf{aspect-ratio:4/3}
+  .vf .t.b,.vf .t.d{display:none}
+  .vf .t.a,.vf .t.c{left:52px}
+  .corner.tl,.corner.bl{left:16px}.corner.tr,.corner.br{right:16px}
+  .corner.tl,.corner.tr{top:16px}.corner.bl,.corner.br{bottom:16px}
+  .steps{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr;gap:14px}
+  .prow{grid-template-columns:1fr}.meta{flex-direction:row;align-items:center;justify-content:flex-start}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .h1 .ln>span{transform:none!important}
+  .lb{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap in">
+    <a href="#hero" class="brand" aria-label="Clean Minds Films, accueil">
+      <span class="mark"><i></i></span>
+      <span><b>Clean Minds</b><small>Films, Maroc</small></span>
+    </a>
+    <nav class="links" aria-label="Navigation principale">
+      <a href="#services">Services</a>
+      <a href="#reel">Showreel</a>
+      <a href="#territory">Territoire</a>
+      <a href="#rebate">Cash rebate</a>
+      <a href="#projects">Références</a>
+      <a href="#workflow">Méthode</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Langue / Language / اللغة">
+      <button class="lang-btn" type="button" data-lang="fr" aria-label="Français">FR</button>
+      <button class="lang-btn" type="button" data-lang="en" aria-label="English">EN</button>
+      <button class="lang-btn" type="button" data-lang="ar" aria-label="العربية">AR</button>
+    </div>
+    <a href="#contact" class="btn gold">Lancer un tournage</a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="drawer"><i></i><i></i></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <nav aria-label="Menu mobile">
+    <a href="#services">Services</a>
+    <a href="#reel">Showreel</a>
+    <a href="#territory">Territoire</a>
+    <a href="#rebate">Cash rebate</a>
+    <a href="#projects">Références</a>
+    <a href="#workflow">Méthode</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="lang-switch" role="group" aria-label="Langue / Language / اللغة">
+    <button class="lang-btn" type="button" data-lang="fr" aria-label="Français">FR</button>
+    <button class="lang-btn" type="button" data-lang="en" aria-label="English">EN</button>
+    <button class="lang-btn" type="button" data-lang="ar" aria-label="العربية">AR</button>
+  </div>
+  <p>N° 89 Hay Mohammadi, Ouarzazate<br>+212 6 62 13 11 97</p>
+</div>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <canvas id="heroC" aria-hidden="true"></canvas>
+  <div class="lb t"></div><div class="lb b"></div>
+  <div class="hud" aria-hidden="true"><span class="rec"></span><span>REC</span><span id="tc">00:00:00:00</span></div>
+  <div class="wrap" style="width:100%">
+    <h1 class="h1">
+      <span class="ln"><span>Stories</span></span>
+      <span class="ln"><span>Without</span></span>
+      <span class="ln"><span>Borders.</span></span>
+    </h1>
+    <div class="hero-foot">
+      <div>
+        <p class="lead">Société de production et de production exécutive à Ouarzazate. Repérages, autorisations CCM, équipes, régie tout-terrain : tout ce dont un réalisateur ou un studio étranger a besoin pour tourner au Maroc.</p>
+        <p class="facts"><span>Fondée en 2019</span><span>Plus de 40 productions</span><span>Clé en main</span></p>
+      </div>
+      <div class="cta">
+        <a class="btn gold" href="#contact">Démarrer un projet</a>
+        <a class="btn ghost" href="#reel">Voir le showreel</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES : feuille de service -->
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="h2">La feuille de service<br>d'un tournage clé en main</h2>
+      <p>Chaque tournage demande une réponse sur mesure. Nous assurons la viabilité artistique, réglementaire et financière de votre projet, de la préparation au wrap.</p>
+    </div>
+    <div class="sheet" role="table" aria-label="Services">
+      <div class="sh-head" role="row"><span role="columnheader">Poste</span><span role="columnheader">Ce que nous prenons en charge</span><span role="columnheader">Livrables</span></div>
+
+      <article class="sh-row key" role="row">
+        <h3>Production exécutive</h3>
+        <p>Prise en charge complète pour les maisons de production étrangères : devis précis, cash rebate marocain à 30 %, planification et pilotage quotidien du tournage.</p>
+        <ul><li>Devis aux normes internationales</li><li>Éligibilité CCM et cash rebate</li><li>Suivi de production A à Z</li></ul>
+      </article>
+
+      <article class="sh-row" role="row">
+        <h3>Repérages et autorisations</h3>
+        <p>Scouting de décors d'exception : déserts, ksars séculaires, oasis, zones urbaines. Gestion accélérée des permis de tournage et des autorisations de drones avec le CCM et les autorités locales.</p>
+        <ul><li>Permis CCM</li><li>Autorisations drones</li><li>Lieux classés</li></ul>
+      </article>
+
+      <article class="sh-row" role="row">
+        <h3>Équipes et casting</h3>
+        <p>Accès aux meilleurs chefs de poste et techniciens marocains polyglottes : caméra, lumière, son, machinerie. Casting d'acteurs professionnels et coordination de figuration.</p>
+        <ul><li>Chefs de poste et techniciens</li><li>Casting acteurs</li><li>Figuration massive</li></ul>
+      </article>
+
+      <article class="sh-row" role="row">
+        <h3>Régie et logistique basecamp</h3>
+        <p>Campements mobiles dans les zones les plus reculées, flotte 4x4, camions loges, catering aux standards internationaux et sécurité 24 h/24.</p>
+        <ul><li>Autonomie en milieu hostile</li><li>Flotte 4x4 et loges</li><li>Catering et sécurité</li></ul>
+      </article>
+
+      <article class="sh-row" role="row">
+        <h3>Matériel et caméras</h3>
+        <p>Partenariats directs avec les loueurs de matériel cinéma d'Ouarzazate et de Casablanca : packages Arri Alexa 35, Sony Venice, RED, optiques anamorphiques, grues, groupes électrogènes insonorisés.</p>
+        <ul><li>Arri, Sony Venice, RED</li><li>Optiques cinéma</li><li>Grip et électro</li></ul>
+      </article>
+
+      <article class="sh-row" role="row">
+        <h3>DIT et post-production</h3>
+        <p>Sécurisation et vérification des rushes sur le plateau avec un DIT lab mobile (copies vérifiées LTO/NVMe), montage offline, sound design et conformation jusqu'à la livraison.</p>
+        <ul><li>Gestion sécurisée des rushes</li><li>Montage offline</li><li>Workflow DCI</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWREEL : viseur -->
+<section class="sec alt" id="reel">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="h2">Le Maroc<br>à travers le viseur</h2>
+      <p>Quatre lumières, quatre décors. Choisissez un moment de la journée et voyez ce que le Sud marocain offre à votre caméra.</p>
+    </div>
+    <div class="vf" id="vf">
+      <canvas id="reelC" aria-label="Illustration animée d'un paysage du Sud marocain" role="img"></canvas>
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <i class="reticle"></i>
+      <div class="t a"><span class="rec"></span>REC 4K ProRes, 24 fps</div>
+      <div class="t b" id="vfLoc">Erg Chebbi</div>
+      <div class="t c" id="vfScene">Aube</div>
+      <div class="t d" id="vfMeta">ISO 800, T2.8, 2.39:1</div>
+    </div>
+    <div class="chips" id="chips" role="tablist" aria-label="Choix de la scène"></div>
+    <div class="reel-note">
+      <span>Illustration générée pour ce site. Le showreel complet est envoyé sur demande.</span>
+      <a class="btn ghost" href="#contact">Demander le showreel</a>
+    </div>
+  </div>
+</section>
+
+<!-- TERRITOIRE -->
+<section class="sec" id="territory">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="h2">Le Maroc,<br>votre studio</h2>
+      <p>Plus de 300 jours de soleil par an et une diversité de décors rare, autour d'Ouarzazate et bien au-delà. Choisissez un territoire.</p>
+    </div>
+    <div class="tabs" id="tabs" role="tablist" aria-label="Territoires de tournage">
+      <button class="tab on" role="tab" data-k="ouarzazate">Ouarzazate et studios</button>
+      <button class="tab" role="tab" data-k="desert">Dunes et ergs</button>
+      <button class="tab" role="tab" data-k="atlas">Haut Atlas et canyons</button>
+      <button class="tab" role="tab" data-k="kasbah">Kasbahs et patrimoine</button>
+    </div>
+    <div class="terr" id="terr">
+      <div class="txt">
+        <h3 class="fade" id="lTitle">Ouarzazate, la porte du désert</h3>
+        <p class="desc fade" id="lDesc"></p>
+        <div class="loctags fade" id="lTags"></div>
+        <div class="stats fade">
+          <div><small>Lumière</small><b id="lS1"></b></div>
+          <div><small>Accès depuis Ouarzazate</small><b id="lS2"></b></div>
+          <div><small>Logistique</small><b id="lS3"></b></div>
+        </div>
+      </div>
+      <div class="vis">
+        <canvas id="terrC" aria-hidden="true"></canvas>
+        <div class="coords" id="lCoords"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASH REBATE -->
+<section class="sec alt" id="rebate">
+  <div class="wrap calc">
+    <div class="txt">
+      <h2 class="h2">Estimez votre<br>cash rebate</h2>
+      <p>Les productions étrangères qui tournent au Maroc peuvent récupérer 30 % de leurs dépenses locales éligibles. Déplacez le curseur pour une première idée de l'effet sur votre budget.</p>
+      <p>Nous vérifions l'éligibilité de votre projet auprès du CCM dès le dépouillement, avant tout engagement.</p>
+    </div>
+    <div class="panel">
+      <div class="row">
+        <label for="amt" style="margin:0">Dépenses éligibles au Maroc</label>
+        <select id="cur" aria-label="Devise"><option value="MAD">MAD</option><option value="EUR">EUR</option><option value="USD">USD</option></select>
+      </div>
+      <div class="row" style="margin-bottom:6px"><span>Budget local</span><output id="amtOut" for="amt">3 000 000</output></div>
+      <input type="range" id="amt" min="200000" max="20000000" step="100000" value="3000000">
+      <div class="res">
+        <small>Crédit d'impôt estimé (30 %)</small>
+        <div class="big" id="reb">0</div>
+        <div class="split" aria-hidden="true"><i></i></div>
+        <div class="legend"><span>Récupéré <b id="lgR">30 %</b></span><span>Coût net <b id="lgN">0</b></span></div>
+      </div>
+      <p class="fine">Estimation indicative. Le crédit d'impôt s'applique aux dépenses locales éligibles, sous conditions validées par le CCM. Un chiffrage précis est établi après lecture du scénario.</p>
+    </div>
+  </div>
+</section>
+
+<!-- RÉFÉRENCES -->
+<section class="sec" id="projects">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="h2">Références<br>sélectionnées</h2>
+      <p>Longs-métrages, campagnes de prestige, séries et documentaires internationaux coordonnés par nos équipes.</p>
+    </div>
+    <div class="proj">
+      <div class="plist" id="plist"></div>
+      <aside class="poster" aria-live="polite">
+        <canvas id="posterC" aria-hidden="true"></canvas>
+        <div class="cap"><b id="pTitle"></b><span id="pSub"></span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTHODE -->
+<section class="sec alt" id="workflow">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="h2">Du script à la livraison,<br>sans friction</h2>
+      <p>Quatre temps, un interlocuteur unique. Chaque étape est cadrée avant de passer à la suivante.</p>
+    </div>
+    <div class="steps">
+      <article class="step">
+        <div class="n">1</div>
+        <h3>Dépouillement et chiffrage</h3>
+        <p>Étude du scénario, devis transparent aux normes internationales, faisabilité technique et éligibilité au cash rebate de 30 %.</p>
+        <ul><li>Devis détaillé</li><li>Plan de tournage</li></ul>
+      </article>
+      <article class="step">
+        <div class="n">2</div>
+        <h3>Permis et scouting technique</h3>
+        <p>Dépôt des dossiers auprès du Centre Cinématographique Marocain, autorisations spécifiques et repérages approfondis.</p>
+        <ul><li>Dossiers CCM</li><li>Recce sur le terrain</li></ul>
+      </article>
+      <article class="step">
+        <div class="n">3</div>
+        <h3>Tournage et régie déployée</h3>
+        <p>Exécution rigoureuse de la feuille de service : chefs de poste, transport, cantine et sécurité sur site.</p>
+        <ul><li>Feuille de service quotidienne</li><li>Basecamp opérationnel</li></ul>
+      </article>
+      <article class="step">
+        <div class="n">4</div>
+        <h3>Wrap et audit financier</h3>
+        <p>Démontage ordonné des décors naturels dans le respect de l'environnement, clôture comptable et attestation officielle de dépenses.</p>
+        <ul><li>Remise en état des lieux</li><li>Attestation de dépenses</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="wrap faq">
+    <div><h2 class="h2">Questions<br>fréquentes</h2></div>
+    <div>
+      <details>
+        <summary>Quelles autorisations faut-il pour tourner au Maroc ?</summary>
+        <p>Les tournages étrangers passent par le Centre Cinématographique Marocain (CCM). Selon le projet, d'autres autorisations peuvent s'ajouter : drones, sites classés, zones sensibles, matériel en douane. Nous constituons et suivons l'ensemble des dossiers.</p>
+      </details>
+      <details>
+        <summary>Combien de temps faut-il prévoir avant le tournage ?</summary>
+        <p>Cela dépend de la taille du projet et des lieux visés. Plus vous nous contactez tôt, idéalement dès le dépouillement, plus les autorisations et les repérages se déroulent sereinement.</p>
+      </details>
+      <details>
+        <summary>Pouvez-vous tourner en zone isolée ?</summary>
+        <p>Oui. Nous déployons des basecamps autonomes avec flotte 4x4, loges, catering et sécurité, y compris dans le désert et en haute montagne.</p>
+      </details>
+      <details>
+        <summary>Vos équipes travaillent-elles en plusieurs langues ?</summary>
+        <p>Nos techniciens et coordinateurs sont polyglottes et habitués aux plateaux internationaux : français, arabe et anglais au quotidien.</p>
+      </details>
+      <details>
+        <summary>Comment obtenir un premier chiffrage ?</summary>
+        <p>Envoyez-nous votre scénario ou une note d'intention, les dates envisagées et les décors visés. Nous revenons vers vous sous 24 h ouvrées avec les premières pistes.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec alt" id="contact">
+  <div class="wrap contact">
+    <div>
+      <h2 class="h2">Parlons de votre<br>prochain film.</h2>
+      <p class="intro">Envoyez-nous votre intention, vos dates estimées ou une demande de repérages. Nous répondons sous 24 h ouvrées.</p>
+      <div class="info">
+        <div><small>Bureaux</small><p>N° 89 Hay Mohammadi, Ouarzazate, Maroc</p></div>
+        <div><small>Email</small><a href="mailto:bouhalbamustapha@gmail.com">bouhalbamustapha@gmail.com</a></div>
+        <div><small>Téléphone et WhatsApp</small><a href="tel:+212662131197">+212 6 62 13 11 97</a></div>
+      </div>
+      <div class="legal">
+        <b>STE CLEAN MINDS FILMS SARL AU</b><br>
+        RC 10517, IF 37622038, ICE 002295691000022<br>
+        TP 47102182, CNSS 1753372
+      </div>
+    </div>
+    <form id="form" novalidate>
+      <div class="two">
+        <div><label for="fName">Nom et prénom *</label><input id="fName" name="name" type="text" required placeholder="Jane Doe" autocomplete="name"></div>
+        <div><label for="fMail">Email professionnel *</label><input id="fMail" name="email" type="email" required placeholder="production@studio.com" autocomplete="email"></div>
+      </div>
+      <div class="two">
+        <div><label for="fType">Nature du projet</label>
+          <select id="fType" name="type">
+            <option>Long-métrage fiction</option><option>Série TV ou streaming</option><option>Publicité</option><option>Documentaire</option><option>Repérages et fixer uniquement</option>
+          </select></div>
+        <div><label for="fWhen">Période estimée</label><input id="fWhen" name="when" type="text" placeholder="Ex. automne 2026, 3 semaines"></div>
+      </div>
+      <div><label for="fMsg">Décors visés, équipe, matériel *</label><textarea id="fMsg" name="msg" required placeholder="Décrivez votre projet en quelques lignes."></textarea></div>
+      <div class="actions">
+        <button class="btn gold" type="submit">Envoyer la demande par email</button>
+        <a class="btn ghost" id="wa" target="_blank" rel="noopener" href="https://wa.me/212662131197?text=Bonjour%20Clean%20Minds%20Films%2C%20j%27aimerais%20discuter%20d%27un%20projet%20de%20tournage%20au%20Maroc.">Écrire sur WhatsApp</a>
+      </div>
+      <p class="fb" id="fb" role="status" hidden></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Clean Minds Films. Tous droits réservés.</span>
+    <a href="#hero">Retour en haut</a>
+  </div>
+</footer>
+
+<script>
+(()=>{
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Multilingual FR / EN / AR ---------- */
+const TRANSLATIONS = {"en":{"Films, Maroc":"Films, Morocco","Territoire":"Locations","Références":"Credits","Méthode":"Workflow","Lancer un tournage":"Start a production","Contact":"Contact","Stories":"Stories","Without":"Without","Borders.":"Borders.","Société de production et de production exécutive à Ouarzazate. Repérages, autorisations CCM, équipes, régie tout-terrain : tout ce dont un réalisateur ou un studio étranger a besoin pour tourner au Maroc.":"Film production and executive production company based in Ouarzazate. Location scouting, CCM permits, crews and field logistics: everything a director or international studio needs to shoot in Morocco.","Fondée en 2019":"Founded in 2019","Plus de 40 productions":"40+ productions","Clé en main":"Turnkey production","Démarrer un projet":"Start a project","Voir le showreel":"Watch the showreel","La feuille de service":"The production call sheet","d'un tournage clé en main":"for a turnkey shoot","Chaque tournage demande une réponse sur mesure. Nous assurons la viabilité artistique, réglementaire et financière de votre projet, de la préparation au wrap.":"Every production requires a tailored approach. We manage the artistic, regulatory and financial feasibility of your project from prep through wrap.","Poste":"Department","Ce que nous prenons en charge":"What we handle","Livrables":"Deliverables","Production exécutive":"Executive production","Prise en charge complète pour les maisons de production étrangères : devis précis, cash rebate marocain à 30 %, planification et pilotage quotidien du tournage.":"Full-service support for international production companies: accurate budgeting, Morocco's 30% cash rebate, scheduling and day-to-day production management.","Devis aux normes internationales":"International-standard budgets","Éligibilité CCM et cash rebate":"CCM and cash-rebate eligibility","Suivi de production A à Z":"End-to-end production management","Repérages et autorisations":"Scouting and permits","Scouting de décors d'exception : déserts, ksars séculaires, oasis, zones urbaines. Gestion accélérée des permis de tournage et des autorisations de drones avec le CCM et les autorités locales.":"Scouting exceptional locations: deserts, centuries-old ksars, oases and urban settings. Streamlined management of filming and drone permits with the CCM and local authorities.","Permis CCM":"CCM permits","Autorisations drones":"Drone permits","Lieux classés":"Protected locations","Équipes et casting":"Crew and casting","Accès aux meilleurs chefs de poste et techniciens marocains polyglottes : caméra, lumière, son, machinerie. Casting d'acteurs professionnels et coordination de figuration.":"Access to experienced multilingual Moroccan department heads and technicians across camera, lighting, sound and grip, plus professional casting and extras coordination.","Chefs de poste et techniciens":"Department heads and technicians","Casting acteurs":"Actor casting","Figuration massive":"Large-scale extras","Régie et logistique basecamp":"Unit and basecamp logistics","Campements mobiles dans les zones les plus reculées, flotte 4x4, camions loges, catering aux standards internationaux et sécurité 24 h/24.":"Mobile basecamps in remote locations, 4x4 fleet, dressing-room trucks, international-standard catering and 24/7 security.","Autonomie en milieu hostile":"Remote-location autonomy","Flotte 4x4 et loges":"4x4 fleet and dressing rooms","Catering et sécurité":"Catering and security","Matériel et caméras":"Equipment and cameras","Partenariats directs avec les loueurs de matériel cinéma d'Ouarzazate et de Casablanca : packages Arri Alexa 35, Sony Venice, RED, optiques anamorphiques, grues, groupes électrogènes insonorisés.":"Direct partnerships with cinema equipment rental houses in Ouarzazate and Casablanca: Arri Alexa 35, Sony Venice and RED packages, anamorphic lenses, cranes and silent generators.","Optiques cinéma":"Cinema lenses","Grip et électro":"Grip and lighting","DIT et post-production":"DIT and post-production","Sécurisation et vérification des rushes sur le plateau avec un DIT lab mobile (copies vérifiées LTO/NVMe), montage offline, sound design et conformation jusqu'à la livraison.":"On-set rushes backup and verification with a mobile DIT lab (verified LTO/NVMe copies), offline editing, sound design and conform through final delivery.","Gestion sécurisée des rushes":"Secure rushes management","Montage offline":"Offline editing","Workflow DCI":"DCI workflow","Le Maroc":"Morocco","à travers le viseur":"through the viewfinder","Quatre lumières, quatre décors. Choisissez un moment de la journée et voyez ce que le Sud marocain offre à votre caméra.":"Four lights, four landscapes. Choose a time of day and see what southern Morocco can bring to your camera.","Illustration générée pour ce site. Le showreel complet est envoyé sur demande.":"Visual generated for this website. The full showreel is available on request.","Demander le showreel":"Request the showreel","Le Maroc,":"Morocco,","votre studio":"your studio","Plus de 300 jours de soleil par an et une diversité de décors rare, autour d'Ouarzazate et bien au-delà. Choisissez un territoire.":"More than 300 days of sunshine a year and an exceptional range of landscapes around Ouarzazate and far beyond. Choose a location.","Ouarzazate et studios":"Ouarzazate and studios","Dunes et ergs":"Dunes and ergs","Haut Atlas et canyons":"High Atlas and canyons","Kasbahs et patrimoine":"Kasbahs and heritage","Lumière":"Light","Accès depuis Ouarzazate":"Access from Ouarzazate","Logistique":"Logistics","Estimez votre":"Estimate your","cash rebate":"cash rebate","Les productions étrangères qui tournent au Maroc peuvent récupérer 30 % de leurs dépenses locales éligibles. Déplacez le curseur pour une première idée de l'effet sur votre budget.":"International productions shooting in Morocco may recover 30% of eligible local expenditure. Move the slider for an initial estimate of the impact on your budget.","Nous vérifions l'éligibilité de votre projet auprès du CCM dès le dépouillement, avant tout engagement.":"We check your project's eligibility with the CCM from the breakdown stage, before any commitment.","Dépenses éligibles au Maroc":"Eligible expenditure in Morocco","Budget local":"Local budget","Crédit d'impôt estimé (30 %)":"Estimated rebate (30%)","Récupéré":"Rebate","Coût net":"Net cost","Estimation indicative. Le crédit d'impôt s'applique aux dépenses locales éligibles, sous conditions validées par le CCM. Un chiffrage précis est établi après lecture du scénario.":"Indicative estimate. The rebate applies to eligible local expenditure subject to CCM requirements. A precise budget is prepared after reviewing the script.","sélectionnées":"selected","Longs-métrages, campagnes de prestige, séries et documentaires internationaux coordonnés par nos équipes.":"Feature films, premium campaigns, series and international documentaries coordinated by our teams.","Du script à la livraison,":"From script to delivery,","sans friction":"without friction","Quatre temps, un interlocuteur unique. Chaque étape est cadrée avant de passer à la suivante.":"Four stages, one point of contact. Each phase is locked before moving to the next.","Dépouillement et chiffrage":"Breakdown and budgeting","Étude du scénario, devis transparent aux normes internationales, faisabilité technique et éligibilité au cash rebate de 30 %.":"Script analysis, transparent international-standard budgeting, technical feasibility and 30% cash-rebate eligibility.","Devis détaillé":"Detailed budget","Plan de tournage":"Shooting schedule","Permis et scouting technique":"Permits and technical scouting","Dépôt des dossiers auprès du Centre Cinématographique Marocain, autorisations spécifiques et repérages approfondis.":"Applications with the Moroccan Cinematographic Center, specific permits and in-depth location scouting.","Dossiers CCM":"CCM applications","Recce sur le terrain":"Technical recce","Tournage et régie déployée":"Shoot and deployed unit","Exécution rigoureuse de la feuille de service : chefs de poste, transport, cantine et sécurité sur site.":"Rigorous execution of the daily call sheet: department heads, transport, catering and on-site security.","Feuille de service quotidienne":"Daily call sheet","Basecamp opérationnel":"Operational basecamp","Wrap et audit financier":"Wrap and financial audit","Démontage ordonné des décors naturels dans le respect de l'environnement, clôture comptable et attestation officielle de dépenses.":"Orderly wrap of natural locations with environmental care, financial closing and official expenditure documentation.","Remise en état des lieux":"Location restoration","Attestation de dépenses":"Expenditure statement","Questions":"Frequently asked","fréquentes":"questions","Quelles autorisations faut-il pour tourner au Maroc ?":"What permits are required to film in Morocco?","Les tournages étrangers passent par le Centre Cinématographique Marocain (CCM). Selon le projet, d'autres autorisations peuvent s'ajouter : drones, sites classés, zones sensibles, matériel en douane. Nous constituons et suivons l'ensemble des dossiers.":"International productions go through the Moroccan Cinematographic Center (CCM). Depending on the project, additional permissions may be required for drones, protected sites, sensitive areas or customs equipment. We prepare and follow every application.","Combien de temps faut-il prévoir avant le tournage ?":"How much lead time should we allow before filming?","Cela dépend de la taille du projet et des lieux visés. Plus vous nous contactez tôt, idéalement dès le dépouillement, plus les autorisations et les repérages se déroulent sereinement.":"It depends on the scale of the project and the locations involved. The earlier you contact us, ideally at breakdown stage, the smoother permits and scouting will be.","Pouvez-vous tourner en zone isolée ?":"Can you shoot in remote areas?","Oui. Nous déployons des basecamps autonomes avec flotte 4x4, loges, catering et sécurité, y compris dans le désert et en haute montagne.":"Yes. We deploy self-sufficient basecamps with 4x4 fleets, dressing rooms, catering and security, including in desert and high-mountain locations.","Vos équipes travaillent-elles en plusieurs langues ?":"Do your crews work in multiple languages?","Nos techniciens et coordinateurs sont polyglottes et habitués aux plateaux internationaux : français, arabe et anglais au quotidien.":"Our technicians and coordinators are multilingual and accustomed to international sets, working daily in French, Arabic and English.","Comment obtenir un premier chiffrage ?":"How can I get an initial budget?","Envoyez-nous votre scénario ou une note d'intention, les dates envisagées et les décors visés. Nous revenons vers vous sous 24 h ouvrées avec les premières pistes.":"Send us your script or treatment, tentative dates and desired locations. We will get back to you within 24 business hours with initial options.","Parlons de votre":"Let's talk about your","prochain film.":"next film.","Envoyez-nous votre intention, vos dates estimées ou une demande de repérages. Nous répondons sous 24 h ouvrées.":"Send us your treatment, estimated dates or a scouting request. We reply within 24 business hours.","Bureaux":"Office","Téléphone et WhatsApp":"Phone and WhatsApp","Nom et prénom *":"Full name *","Email professionnel *":"Business email *","Nature du projet":"Project type","Long-métrage fiction":"Feature film","Série TV ou streaming":"TV or streaming series","Publicité":"Commercial","Documentaire":"Documentary","Repérages et fixer uniquement":"Scouting / fixer only","Période estimée":"Estimated period","Décors visés, équipe, matériel *":"Locations, crew and equipment *","Envoyer la demande par email":"Send request by email","Écrire sur WhatsApp":"Message us on WhatsApp","© 2026 Clean Minds Films. Tous droits réservés.":"© 2026 Clean Minds Films. All rights reserved.","Retour en haut":"Back to top","Aube":"Dawn","Contre-jour":"Backlight","Golden hour":"Golden hour","Nuit":"Night","Haut Atlas":"High Atlas","Ouarzazate, la porte du désert":"Ouarzazate, gateway to the desert","Épicentre historique des grandes fresques cinématographiques (Gladiator, Kingdom of Heaven, Game of Thrones). Studios insonorisés, backlots monumentaux à ciel ouvert et infrastructures hôtelières adaptées aux équipes de plus de 300 personnes.":"A historic hub for major screen epics (Gladiator, Kingdom of Heaven, Game of Thrones), with sound stages, monumental open-air backlots and hotel infrastructure suited to crews of more than 300 people.","300+ jours de soleil":"300+ sunny days","Aéroport OZZ":"OZZ airport","Sur place":"On site","Studios et backlots":"Studios and backlots","Péplum":"Historical epic","Séries TV":"TV series","Hôtellerie équipes":"Crew accommodation","Merzouga et Erg Chegaga":"Merzouga and Erg Chegaga","Étendues de sable doré, crêtes sculptées par le vent et couchers de soleil incomparables. Nous installons des campements autonomes pour vos tournages au cœur du désert.":"Golden sand expanses, wind-sculpted ridges and exceptional sunsets. We deploy self-sufficient camps for productions deep in the desert.","Golden hours étirées":"Extended golden hours","4x4, environ 1 jour":"4x4, about 1 day","Basecamp autonome":"Self-sufficient basecamp","Dunes et crêtes":"Dunes and ridges","Campement autonome":"Self-sufficient camp","Mode et publicité":"Fashion and commercial","Expédition":"Expedition","Haut Atlas et canyons escarpés":"High Atlas and rugged canyons","Falaises ocres, cols sinueux comme le Tizi n'Tichka et vallées verdoyantes. Idéal pour les courses de véhicules, les plans drone vertigineux et les scènes d'épopée en montagne.":"Ochre cliffs, winding passes such as Tizi n'Tichka and green valleys. Ideal for vehicle chases, vertiginous drone shots and mountain epics.","Lumière contrastée":"High-contrast light","Environ 2 h 30":"About 2.5 hours","Routes et pistes":"Roads and tracks","Poursuites auto":"Vehicle chases","Plans drone":"Drone shots","Épopée":"Epic","Cols et gorges":"Passes and gorges","Aït Benhaddou et kasbahs séculaires":"Aït Benhaddou and centuries-old kasbahs","Forteresses de terre crue et ruelles préservées depuis des siècles. Décors d'une authenticité rare pour les fictions historiques, les drames et les campagnes de mode.":"Earthen fortresses and lanes preserved for centuries. Rarely authentic settings for historical fiction, drama and fashion campaigns.","Environ 30 min":"About 30 min","Permis spécifique":"Specific permit","Fiction historique":"Historical fiction","Drame":"Drama","Ksars et ruelles":"Ksars and lanes","Long-métrage de fiction, tournage dans le Sud marocain":"Feature film shot in southern Morocco","Campagne internationale de haute parfumerie":"International luxury fragrance campaign","Commercial":"Commercial","Série documentaire tout-terrain et expédition":"Off-road expedition documentary series","Régie extrême":"Extreme-location production","Gastronomie et terroirs, avec H. Darroze et E. Frechon":"Gastronomy and terroir with H. Darroze and E. Frechon","Docu-série":"Docuseries","Production télévisuelle internationale":"International television production","Production support":"Production support","Jane Doe":"Jane Doe","production@studio.com":"production@studio.com","Ex. automne 2026, 3 semaines":"e.g. autumn 2026, 3 weeks","Décrivez votre projet en quelques lignes.":"Describe your project in a few lines.","Votre application mail s'ouvre avec la demande pré-remplie. Si rien ne s'affiche, écrivez-nous à bouhalbamustapha@gmail.com.":"Your email app is opening with a pre-filled request. If nothing appears, email us at bouhalbamustapha@gmail.com.","Bonjour Clean Minds Films,":"Hello Clean Minds Films,","Nom :":"Name:","Projet :":"Project:","Période :":"Period:","à définir":"to be confirmed","Demande de production :":"Production inquiry:"},"ar":{"Films, Maroc":"أفلام · المغرب","Services":"الخدمات","Showreel":"شريط الأعمال","Territoire":"مواقع التصوير","Cash rebate":"التحفيز المالي","Références":"أعمال مختارة","Méthode":"منهجية العمل","Lancer un tournage":"ابدأ مشروع تصوير","Contact":"تواصل معنا","Stories":"قصص","Without":"بلا","Borders.":"حدود.","Société de production et de production exécutive à Ouarzazate. Repérages, autorisations CCM, équipes, régie tout-terrain : tout ce dont un réalisateur ou un studio étranger a besoin pour tourner au Maroc.":"شركة للإنتاج السينمائي والإنتاج التنفيذي مقرها ورزازات. نوفر معاينة مواقع التصوير، تراخيص المركز السينمائي المغربي، الفرق التقنية والخدمات اللوجستية الميدانية: كل ما يحتاجه المخرج أو الاستوديو الدولي للتصوير في المغرب.","Fondée en 2019":"تأسست سنة 2019","Plus de 40 productions":"أكثر من 40 إنتاجاً","Clé en main":"خدمة متكاملة","Démarrer un projet":"ابدأ مشروعاً","Voir le showreel":"شاهد شريط الأعمال","La feuille de service":"خطة الإنتاج","d'un tournage clé en main":"لتصوير متكامل","Chaque tournage demande une réponse sur mesure. Nous assurons la viabilité artistique, réglementaire et financière de votre projet, de la préparation au wrap.":"كل مشروع تصوير يحتاج إلى حلول مصممة حسب متطلباته. نواكب الجدوى الفنية والتنظيمية والمالية للمشروع من مرحلة التحضير إلى نهاية التصوير.","Poste":"القسم","Ce que nous prenons en charge":"ما نتكفل به","Livrables":"المخرجات","Production exécutive":"الإنتاج التنفيذي","Prise en charge complète pour les maisons de production étrangères : devis précis, cash rebate marocain à 30 %, planification et pilotage quotidien du tournage.":"مواكبة شاملة لشركات الإنتاج الأجنبية: ميزانيات دقيقة، التحفيز المالي المغربي بنسبة 30٪، التخطيط والتسيير اليومي للتصوير.","Devis aux normes internationales":"ميزانيات وفق المعايير الدولية","Éligibilité CCM et cash rebate":"أهلية المركز السينمائي والتحفيز المالي","Suivi de production A à Z":"إدارة الإنتاج من البداية إلى النهاية","Repérages et autorisations":"معاينة المواقع والتراخيص","Scouting de décors d'exception : déserts, ksars séculaires, oasis, zones urbaines. Gestion accélérée des permis de tournage et des autorisations de drones avec le CCM et les autorités locales.":"البحث عن مواقع تصوير استثنائية: صحارى، قصور تاريخية، واحات ومناطق حضرية، مع تدبير تراخيص التصوير والطائرات المسيّرة لدى المركز السينمائي المغربي والسلطات المحلية.","Permis CCM":"تراخيص المركز السينمائي","Autorisations drones":"تراخيص الدرون","Lieux classés":"المواقع المصنفة","Équipes et casting":"الفرق والكاستينغ","Accès aux meilleurs chefs de poste et techniciens marocains polyglottes : caméra, lumière, son, machinerie. Casting d'acteurs professionnels et coordination de figuration.":"تعبئة رؤساء أقسام وتقنيين مغاربة متعددي اللغات في الكاميرا والإضاءة والصوت والماشينري، مع كاستينغ للممثلين وتنسيق الكومبارس.","Chefs de poste et techniciens":"رؤساء الأقسام والتقنيون","Casting acteurs":"كاستينغ الممثلين","Figuration massive":"تنسيق أعداد كبيرة من الكومبارس","Régie et logistique basecamp":"الريجي واللوجستيك الميداني","Campements mobiles dans les zones les plus reculées, flotte 4x4, camions loges, catering aux standards internationaux et sécurité 24 h/24.":"معسكرات إنتاج متنقلة في المناطق النائية، أسطول سيارات 4x4، عربات غرف الملابس، خدمات تموين بمعايير دولية وأمن على مدار الساعة.","Autonomie en milieu hostile":"استقلالية في المواقع الصعبة","Flotte 4x4 et loges":"أسطول 4x4 وغرف ملابس","Catering et sécurité":"التموين والأمن","Matériel et caméras":"المعدات والكاميرات","Partenariats directs avec les loueurs de matériel cinéma d'Ouarzazate et de Casablanca : packages Arri Alexa 35, Sony Venice, RED, optiques anamorphiques, grues, groupes électrogènes insonorisés.":"شراكات مباشرة مع شركات تأجير المعدات السينمائية في ورزازات والدار البيضاء: حزم Arri Alexa 35 وSony Venice وRED، عدسات أنامورفيك، رافعات ومولدات كهربائية عازلة للصوت.","Optiques cinéma":"عدسات سينمائية","Grip et électro":"الماشينري والإضاءة","DIT et post-production":"DIT وما بعد الإنتاج","Sécurisation et vérification des rushes sur le plateau avec un DIT lab mobile (copies vérifiées LTO/NVMe), montage offline, sound design et conformation jusqu'à la livraison.":"حماية وفحص المادة المصورة في موقع التصوير عبر مختبر DIT متنقل، مع نسخ موثقة LTO/NVMe، مونتاج أولي، تصميم صوتي وتهيئة نهائية حتى التسليم.","Gestion sécurisée des rushes":"إدارة آمنة للمادة المصورة","Montage offline":"مونتاج أولي","Workflow DCI":"مسار عمل DCI","Le Maroc":"المغرب","à travers le viseur":"من خلال عدسة الكاميرا","Quatre lumières, quatre décors. Choisissez un moment de la journée et voyez ce que le Sud marocain offre à votre caméra.":"أربع إضاءات وأربعة فضاءات. اختر لحظة من اليوم واكتشف ما يقدمه جنوب المغرب لعدستك.","Illustration générée pour ce site. Le showreel complet est envoyé sur demande.":"مشهد توضيحي مولّد لهذا الموقع. شريط الأعمال الكامل متوفر عند الطلب.","Demander le showreel":"اطلب شريط الأعمال","Le Maroc,":"المغرب،","votre studio":"استوديو مفتوح لك","Plus de 300 jours de soleil par an et une diversité de décors rare, autour d'Ouarzazate et bien au-delà. Choisissez un territoire.":"أكثر من 300 يوم مشمس في السنة وتنوع استثنائي في مواقع التصوير حول ورزازات وفي مختلف مناطق المغرب. اختر فضاءك.","Ouarzazate et studios":"ورزازات والاستوديوهات","Dunes et ergs":"الكثبان والعرق","Haut Atlas et canyons":"الأطلس الكبير والوديان","Kasbahs et patrimoine":"القصبات والتراث","Lumière":"الإضاءة","Accès depuis Ouarzazate":"الوصول من ورزازات","Logistique":"اللوجستيك","Estimez votre":"احسب قيمة","cash rebate":"التحفيز المالي","Les productions étrangères qui tournent au Maroc peuvent récupérer 30 % de leurs dépenses locales éligibles. Déplacez le curseur pour une première idée de l'effet sur votre budget.":"يمكن للإنتاجات الأجنبية التي تُصوَّر في المغرب استرجاع 30٪ من النفقات المحلية المؤهلة. حرّك المؤشر للحصول على تقدير أولي لتأثير ذلك على ميزانيتك.","Nous vérifions l'éligibilité de votre projet auprès du CCM dès le dépouillement, avant tout engagement.":"نتحقق من أهلية مشروعك لدى المركز السينمائي المغربي منذ مرحلة تحليل السيناريو وقبل أي التزام.","Dépenses éligibles au Maroc":"النفقات المؤهلة في المغرب","Budget local":"الميزانية المحلية","Crédit d'impôt estimé (30 %)":"التحفيز المالي التقديري (30٪)","Récupéré":"المبلغ المسترجع","Coût net":"التكلفة الصافية","Estimation indicative. Le crédit d'impôt s'applique aux dépenses locales éligibles, sous conditions validées par le CCM. Un chiffrage précis est établi après lecture du scénario.":"هذا تقدير أولي. يطبق التحفيز على النفقات المحلية المؤهلة وفق شروط المركز السينمائي المغربي. تُعد ميزانية دقيقة بعد دراسة السيناريو.","sélectionnées":"مختارة","Longs-métrages, campagnes de prestige, séries et documentaires internationaux coordonnés par nos équipes.":"أفلام طويلة، حملات رفيعة المستوى، سلاسل وأفلام وثائقية دولية نسقتها فرقنا.","Du script à la livraison,":"من السيناريو إلى التسليم،","sans friction":"بسلاسة","Quatre temps, un interlocuteur unique. Chaque étape est cadrée avant de passer à la suivante.":"أربع مراحل ونقطة اتصال واحدة. يتم ضبط كل مرحلة قبل الانتقال إلى التالية.","Dépouillement et chiffrage":"تحليل السيناريو والميزانية","Étude du scénario, devis transparent aux normes internationales, faisabilité technique et éligibilité au cash rebate de 30 %.":"دراسة السيناريو، ميزانية شفافة وفق المعايير الدولية، دراسة الجدوى التقنية وأهلية التحفيز المالي بنسبة 30٪.","Devis détaillé":"ميزانية مفصلة","Plan de tournage":"خطة التصوير","Permis et scouting technique":"التراخيص والمعاينة التقنية","Dépôt des dossiers auprès du Centre Cinématographique Marocain, autorisations spécifiques et repérages approfondis.":"إيداع الملفات لدى المركز السينمائي المغربي، تدبير التراخيص الخاصة وإجراء معاينات تقنية معمقة.","Dossiers CCM":"ملفات المركز السينمائي","Recce sur le terrain":"معاينة تقنية ميدانية","Tournage et régie déployée":"التصوير والريجي الميداني","Exécution rigoureuse de la feuille de service : chefs de poste, transport, cantine et sécurité sur site.":"تنفيذ دقيق لخطة العمل اليومية: رؤساء الأقسام، النقل، التموين والأمن في موقع التصوير.","Feuille de service quotidienne":"خطة عمل يومية","Basecamp opérationnel":"قاعدة إنتاج جاهزة","Wrap et audit financier":"نهاية التصوير والتدقيق المالي","Démontage ordonné des décors naturels dans le respect de l'environnement, clôture comptable et attestation officielle de dépenses.":"تفكيك منظم للتجهيزات مع احترام الموقع والبيئة، إغلاق الحسابات وإعداد وثائق رسمية للنفقات.","Remise en état des lieux":"إعادة الموقع إلى حالته","Attestation de dépenses":"إثبات النفقات","Questions":"أسئلة","fréquentes":"شائعة","Quelles autorisations faut-il pour tourner au Maroc ?":"ما التراخيص المطلوبة للتصوير في المغرب؟","Les tournages étrangers passent par le Centre Cinématographique Marocain (CCM). Selon le projet, d'autres autorisations peuvent s'ajouter : drones, sites classés, zones sensibles, matériel en douane. Nous constituons et suivons l'ensemble des dossiers.":"تمر الإنتاجات الأجنبية عبر المركز السينمائي المغربي. وحسب طبيعة المشروع قد تُطلب تراخيص إضافية للطائرات المسيّرة أو المواقع المصنفة أو المناطق الحساسة أو المعدات الجمركية. نتولى إعداد ومتابعة جميع الملفات.","Combien de temps faut-il prévoir avant le tournage ?":"كم من الوقت يجب تخصيصه للتحضير قبل التصوير؟","Cela dépend de la taille du projet et des lieux visés. Plus vous nous contactez tôt, idéalement dès le dépouillement, plus les autorisations et les repérages se déroulent sereinement.":"يعتمد ذلك على حجم المشروع والمواقع المطلوبة. كلما تواصلتم معنا مبكراً، ويفضل منذ مرحلة تحليل السيناريو، أصبحت التراخيص والمعاينات أكثر سلاسة.","Pouvez-vous tourner en zone isolée ?":"هل يمكنكم العمل في مناطق نائية؟","Oui. Nous déployons des basecamps autonomes avec flotte 4x4, loges, catering et sécurité, y compris dans le désert et en haute montagne.":"نعم. ننشئ قواعد إنتاج مستقلة مع سيارات 4x4 وغرف ملابس وتموين وأمن، بما في ذلك الصحراء والمناطق الجبلية المرتفعة.","Vos équipes travaillent-elles en plusieurs langues ?":"هل تعمل فرقكم بعدة لغات؟","Nos techniciens et coordinateurs sont polyglottes et habitués aux plateaux internationaux : français, arabe et anglais au quotidien.":"تقنيونا ومنسقونا متعددو اللغات ومعتادون على مواقع التصوير الدولية، ويعملون بالفرنسية والعربية والإنجليزية بشكل يومي.","Comment obtenir un premier chiffrage ?":"كيف أحصل على ميزانية أولية؟","Envoyez-nous votre scénario ou une note d'intention, les dates envisagées et les décors visés. Nous revenons vers vous sous 24 h ouvrées avec les premières pistes.":"أرسلوا إلينا السيناريو أو مذكرة المشروع، التواريخ المقترحة والمواقع المطلوبة. نعود إليكم خلال 24 ساعة عمل بأولى المقترحات.","Parlons de votre":"لنتحدث عن","prochain film.":"فيلمكم القادم.","Envoyez-nous votre intention, vos dates estimées ou une demande de repérages. Nous répondons sous 24 h ouvrées.":"أرسلوا لنا فكرة المشروع أو التواريخ التقديرية أو طلب معاينة مواقع. نجيب خلال 24 ساعة عمل.","Bureaux":"المكتب","Téléphone et WhatsApp":"الهاتف وواتساب","Nom et prénom *":"الاسم الكامل *","Email professionnel *":"البريد المهني *","Nature du projet":"نوع المشروع","Long-métrage fiction":"فيلم روائي طويل","Série TV ou streaming":"سلسلة تلفزيونية أو منصة بث","Publicité":"إعلان","Documentaire":"فيلم وثائقي","Repérages et fixer uniquement":"معاينة مواقع / خدمات Fixer فقط","Période estimée":"الفترة المتوقعة","Décors visés, équipe, matériel *":"المواقع، الفريق والمعدات *","Envoyer la demande par email":"أرسل الطلب عبر البريد","Écrire sur WhatsApp":"راسلنا عبر واتساب","© 2026 Clean Minds Films. Tous droits réservés.":"© 2026 Clean Minds Films. جميع الحقوق محفوظة.","Retour en haut":"العودة إلى الأعلى","Aube":"الفجر","Contre-jour":"إضاءة خلفية","Golden hour":"الساعة الذهبية","Nuit":"ليل","Erg Chebbi":"عرق الشبي","Haut Atlas":"الأطلس الكبير","Aït Benhaddou":"آيت بن حدو","Ouarzazate":"ورزازات","Ouarzazate, la porte du désert":"ورزازات، بوابة الصحراء","Épicentre historique des grandes fresques cinématographiques (Gladiator, Kingdom of Heaven, Game of Thrones). Studios insonorisés, backlots monumentaux à ciel ouvert et infrastructures hôtelières adaptées aux équipes de plus de 300 personnes.":"مركز تاريخي لإنتاجات سينمائية كبرى مثل Gladiator وKingdom of Heaven وGame of Thrones، مع استوديوهات ومواقع ضخمة في الهواء الطلق وبنية فندقية ملائمة للفرق الكبيرة.","300+ jours de soleil":"أكثر من 300 يوم مشمس","Aéroport OZZ":"مطار OZZ","Sur place":"في الموقع","Studios et backlots":"استوديوهات وBacklots","Péplum":"أفلام تاريخية ملحمية","Séries TV":"سلاسل تلفزيونية","Hôtellerie équipes":"إقامة الفرق","Merzouga et Erg Chegaga":"مرزوكة وعرق الشكاكة","Étendues de sable doré, crêtes sculptées par le vent et couchers de soleil incomparables. Nous installons des campements autonomes pour vos tournages au cœur du désert.":"مساحات من الرمال الذهبية وتشكيلات نحتتها الرياح وغروب استثنائي. ننشئ معسكرات إنتاج مستقلة للتصوير في قلب الصحراء.","Golden hours étirées":"ساعات ذهبية ممتدة","4x4, environ 1 jour":"4x4، حوالي يوم","Basecamp autonome":"قاعدة إنتاج مستقلة","Dunes et crêtes":"كثبان وتلال رملية","Campement autonome":"معسكر مستقل","Mode et publicité":"موضة وإعلانات","Expédition":"رحلات استكشافية","Haut Atlas et canyons escarpés":"الأطلس الكبير والوديان الوعرة","Falaises ocres, cols sinueux comme le Tizi n'Tichka et vallées verdoyantes. Idéal pour les courses de véhicules, les plans drone vertigineux et les scènes d'épopée en montagne.":"منحدرات حمراء وممرات متعرجة مثل تيزي نتيشكا ووديان خضراء، مثالية لمطاردات السيارات ولقطات الدرون والمشاهد الملحمية الجبلية.","Lumière contrastée":"إضاءة قوية التباين","Environ 2 h 30":"حوالي ساعتين ونصف","Routes et pistes":"طرق ومسالك","Poursuites auto":"مطاردات سيارات","Plans drone":"لقطات درون","Épopée":"مشاهد ملحمية","Cols et gorges":"ممرات ومضايق","Aït Benhaddou et kasbahs séculaires":"آيت بن حدو والقصبات التاريخية","Forteresses de terre crue et ruelles préservées depuis des siècles. Décors d'une authenticité rare pour les fictions historiques, les drames et les campagnes de mode.":"حصون من الطين وأزقة محفوظة منذ قرون، فضاءات أصيلة للأعمال التاريخية والدرامية وحملات الموضة.","Environ 30 min":"حوالي 30 دقيقة","Permis spécifique":"ترخيص خاص","Fiction historique":"دراما تاريخية","Drame":"دراما","Ksars et ruelles":"قصور وأزقة","Long-métrage de fiction, tournage dans le Sud marocain":"فيلم روائي طويل صُوّر في جنوب المغرب","Campagne internationale de haute parfumerie":"حملة دولية للعطور الفاخرة","Commercial":"إعلان تجاري","Série documentaire tout-terrain et expédition":"سلسلة وثائقية للمغامرات والطرق الوعرة","Régie extrême":"إدارة إنتاج في مواقع صعبة","Gastronomie et terroirs, avec H. Darroze et E. Frechon":"فن الطبخ والمنتجات المحلية مع H. Darroze وE. Frechon","Docu-série":"سلسلة وثائقية","Production télévisuelle internationale":"إنتاج تلفزيوني دولي","Production support":"دعم الإنتاج","Jane Doe":"الاسم الكامل","production@studio.com":"production@studio.com","Ex. automne 2026, 3 semaines":"مثال: خريف 2026، ثلاثة أسابيع","Décrivez votre projet en quelques lignes.":"صف مشروعك في بضعة أسطر.","Votre application mail s'ouvre avec la demande pré-remplie. Si rien ne s'affiche, écrivez-nous à bouhalbamustapha@gmail.com.":"سيتم فتح تطبيق البريد برسالة جاهزة. إذا لم يظهر شيء، راسلونا على bouhalbamustapha@gmail.com.","Bonjour Clean Minds Films,":"مرحباً Clean Minds Films،","Nom :":"الاسم:","Email :":"البريد الإلكتروني:","Projet :":"المشروع:","Période :":"الفترة:","à définir":"تحدد لاحقاً","Demande de production :":"طلب إنتاج:"}};
+let LANG='fr';
+const textSources=new WeakMap(),attrSources=new WeakMap();
+const langLocale=()=>LANG==='ar'?'ar-MA':LANG==='en'?'en-US':'fr-FR';
+const tr=(source)=>LANG==='fr'?source:(TRANSLATIONS[LANG]?.[source]??source);
+function preserveWS(original,replacement){
+  const lead=(original.match(/^\s*/)||[''])[0],trail=(original.match(/\s*$/)||[''])[0];
+  return lead+replacement+trail;
+}
+function translateTextNode(n){
+  if(!n.nodeValue||!n.nodeValue.trim())return;
+  if(!textSources.has(n))textSources.set(n,n.nodeValue.trim());
+  const src=textSources.get(n);n.nodeValue=preserveWS(n.nodeValue,tr(src));
+}
+function translateTree(root=document.body){
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>{
+    const p=n.parentElement;if(!p||['SCRIPT','STYLE'].includes(p.tagName)||!n.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+    return NodeFilter.FILTER_ACCEPT;
+  }});
+  const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(translateTextNode);
+  root.querySelectorAll?.('[placeholder],[aria-label],[title]').forEach(el=>{
+    ['placeholder','aria-label','title'].forEach(a=>{if(!el.hasAttribute(a))return;let m=attrSources.get(el)||{};if(!(a in m))m[a]=el.getAttribute(a);attrSources.set(el,m);el.setAttribute(a,tr(m[a]));});
+  });
+}
+function setDynamicText(el,source){el.textContent=tr(source)}
+function applyLang(lang){
+  LANG=['fr','en','ar'].includes(lang)?lang:'fr';
+  document.documentElement.lang=LANG;document.documentElement.dir=LANG==='ar'?'rtl':'ltr';
+  document.body.dataset.lang=LANG;
+  $$('.lang-btn').forEach(b=>{const on=b.dataset.lang===LANG;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false')});
+  translateTree(document.body);
+  const projectHeading=$('#projects .h2');if(projectHeading){projectHeading.innerHTML=LANG==='en'?'Selected<br>credits':LANG==='ar'?'أعمال<br>مختارة':'Références<br>sélectionnées'}
+  /* Refresh generated project caption in the selected language */
+  if(typeof PROJ!=='undefined'&&typeof pl!=='undefined'){
+    const rows=$$('.prow',pl),idx=rows.findIndex(r=>r.classList.contains('on'));
+    if(idx>=0&&PROJ[idx]){setDynamicText($('#pTitle'),PROJ[idx].t);$('#pSub').textContent=PROJ[idx].y+', '+tr(PROJ[idx].r)}
+  }
+  const wa=$('#wa');if(wa){const wmsg=LANG==='ar'?'مرحباً Clean Minds Films، أود مناقشة مشروع تصوير في المغرب.':LANG==='en'?'Hello Clean Minds Films, I would like to discuss a filming project in Morocco.':'Bonjour Clean Minds Films, j\'aimerais discuter d\'un projet de tournage au Maroc.';wa.href='https://wa.me/212662131197?text='+encodeURIComponent(wmsg)}
+  const meta={
+    fr:{title:'Clean Minds Films — Production cinématographique et exécutive au Maroc',desc:'Clean Minds Films, société de production et de production exécutive basée à Ouarzazate, Maroc. Autorisations CCM, repérages, équipes, régie et logistique pour tournages internationaux.'},
+    en:{title:'Clean Minds Films — Film & Executive Production in Morocco',desc:'Clean Minds Films is a film and executive production company based in Ouarzazate, Morocco, providing CCM permits, scouting, crews, unit management and logistics for international shoots.'},
+    ar:{title:'Clean Minds Films — الإنتاج السينمائي والتنفيذي في المغرب',desc:'Clean Minds Films شركة للإنتاج السينمائي والإنتاج التنفيذي مقرها ورزازات، المغرب، توفر التراخيص ومعاينة المواقع والفرق التقنية والريجي واللوجستيك للإنتاجات الدولية.'}
+  }[LANG];
+  document.title=meta.title;document.querySelector('meta[name="description"]')?.setAttribute('content',meta.desc);
+  document.querySelector('meta[property="og:title"]')?.setAttribute('content',meta.title);document.querySelector('meta[property="og:description"]')?.setAttribute('content',meta.desc);
+  localStorage.setItem('cmf-lang',LANG);
+  if(typeof calc==='function')calc();
+}
+$$('.lang-btn').forEach(b=>b.addEventListener('click',()=>applyLang(b.dataset.lang)));
+
+
+/* ---------- Palettes ---------- */
+const hx=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+const P=o=>({sky:o.sky.map(hx),sun:hx(o.sun),sunY:o.sunY,dunes:o.dunes.map(hx),stars:o.stars||0,rough:o.rough||1,kasbah:o.kasbah||0});
+const PAL={
+  hero:P({sky:['#04060b','#1b1a33','#8a4530'],sun:'#f5b970',sunY:.6,dunes:['#5f3628','#452720','#301b17','#1f1210','#0e0808'],stars:.6}),
+  heroDawn:P({sky:['#070b16','#2a2f52','#c98a68'],sun:'#ffd7a3',sunY:.62,dunes:['#4c3a3f','#382b30','#271e23','#181216','#0b0809'],stars:.35}),
+  heroNight:P({sky:['#02030a','#0a1024','#1a2647'],sun:'#cfdcff',sunY:.28,dunes:['#151b2c','#101524','#0b0f1a','#070a12','#04060a'],stars:1}),
+  dawn:P({sky:['#1b2440','#8a5a6a','#f0a35e'],sun:'#ffd9a0',sunY:.58,dunes:['#c98a5a','#b06f45','#8f5638','#6b3f2b','#3f261d'],stars:.15,rough:.8}),
+  golden:P({sky:['#2a2340','#c0603a','#f5b36b'],sun:'#ffe0a8',sunY:.6,dunes:['#d9995f','#bd7444','#96552f','#6d3a24','#3a2018']}),
+  atlas:P({sky:['#1c2a44','#6d7f9a','#e6b98a'],sun:'#ffe9c4',sunY:.55,dunes:['#7a5a52','#5f453f','#48332f','#302220','#1a1211'],rough:2.6}),
+  kasbah:P({sky:['#2a2340','#c0603a','#f5b36b'],sun:'#ffe0a8',sunY:.58,dunes:['#d9995f','#bd7444','#96552f','#6d3a24','#3a2018'],kasbah:1}),
+  night:P({sky:['#03050b','#0b1226','#1d2a4a'],sun:'#dfe8ff',sunY:.3,dunes:['#1b2236','#141a2b','#0f1422','#0a0e18','#05070c'],stars:1,kasbah:0}),
+  rose:P({sky:['#2a1a2e','#b56a7a','#f6c9a8'],sun:'#fff0d9',sunY:.5,dunes:['#e8b08e','#cf8e78','#a86a62','#7a4650','#452733']}),
+  offgrid:P({sky:['#0b1a2e','#3d5a80','#d9a066'],sun:'#ffe2b0',sunY:.6,dunes:['#5b6b7a','#46525f','#333c47','#222932','#11151b'],rough:2}),
+  amber:P({sky:['#20130c','#7a4420','#e8a24a'],sun:'#ffdca0',sunY:.56,dunes:['#a8622c','#864a20','#623416','#3f2210','#21120a']}),
+  magenta:P({sky:['#12061f','#5a1f6e','#e8508a'],sun:'#ffc2dc',sunY:.55,dunes:['#7a2a7a','#5a1f5e','#3d1444','#260c2c','#100514'],stars:.3})
+};
+const mix=(a,b,k)=>typeof a==='number'?a+(b-a)*k:Array.isArray(a)?a.map((v,i)=>mix(v,b[i],k)):Object.fromEntries(Object.keys(a).map(n=>[n,mix(a[n],b[n],k)]));
+const M={x:0};
+addEventListener('pointermove',e=>{M.x=(e.clientX/innerWidth-.5)*2},{passive:true});
+
+/* ---------- Scene engine (dunes, sun, kasbah, stars) ---------- */
+const scenes=[];
+class Scene{
+  constructor(canvas,pal,o={}){
+    this.c=canvas;this.ctx=canvas.getContext('2d');
+    this.cur=JSON.parse(JSON.stringify(pal));this.tgt=pal;
+    this.t=Math.random()*10;this.mx=0;this.par=o.parallax??1;this.speed=o.speed??1;
+    this.w=0;this.h=0;this.raf=0;this.vis=false;this.last=0;
+    this.stars=Array.from({length:90},()=>[Math.random(),Math.random()*.5,Math.random()*1.3+.4,Math.random()*6]);
+    this.dust=Array.from({length:o.dust??36},()=>({x:Math.random(),y:Math.random(),v:.01+Math.random()*.04,r:Math.random()*1.5+.4,a:Math.random()*.5+.15,p:Math.random()*6}));
+    new ResizeObserver(()=>this.resize()).observe(canvas);
+    new IntersectionObserver(e=>{this.vis=e[0].isIntersecting;this.kick()}).observe(canvas);
+    scenes.push(this);
+  }
+  on(){return this.vis&&!document.hidden&&!reduce}
+  kick(){
+    if(reduce){this.cur=this.tgt;this.draw();return}
+    if(this.on()&&!this.raf){this.last=performance.now();this.raf=requestAnimationFrame(n=>this.frame(n))}
+  }
+  set(p){this.tgt=p;this.kick()}
+  resize(){
+    const d=Math.min(devicePixelRatio||1,2),r=this.c.getBoundingClientRect();
+    if(!r.width||!r.height)return;
+    this.w=r.width;this.h=r.height;this.c.width=Math.round(r.width*d);this.c.height=Math.round(r.height*d);
+    this.ctx.setTransform(d,0,0,d,0,0);this.draw();
+  }
+  frame(now){
+    if(!this.on()){this.raf=0;return}
+    const dt=Math.min(.05,(now-this.last)/1000||.016);this.last=now;
+    this.t+=dt*this.speed;this.mx+=(M.x-this.mx)*.05;this.cur=mix(this.cur,this.tgt,.04);
+    this.draw();this.raf=requestAnimationFrame(n=>this.frame(n));
+  }
+  kasbah(x,y,s,col,ext){
+    const c=this.ctx;c.fillStyle=col;
+    [[0,64,30],[34,96,26],[64,52,34],[104,78,24]].forEach(([ox,hh,ww])=>{
+      const X=x+ox*s,Y=y-hh*s;c.fillRect(X,Y,ww*s,hh*s+ext);
+      const n=3,cw=ww*s/(n*2-1);for(let k=0;k<n;k++)c.fillRect(X+k*2*cw,Y-7*s,cw,7*s);
+    });
+    c.fillStyle='rgba(0,0,0,.35)';c.fillRect(x+44*s,y-70*s,4*s,10*s);c.fillRect(x+112*s,y-50*s,4*s,9*s);
+  }
+  draw(){
+    const {ctx,w,h,cur:p,t}=this;if(!w||!h)return;
+    const c=v=>`rgb(${v[0]|0},${v[1]|0},${v[2]|0})`,s=p.sun.map(v=>v|0).join(',');
+    const g=ctx.createLinearGradient(0,0,0,h*.85);
+    g.addColorStop(0,c(p.sky[0]));g.addColorStop(.5,c(p.sky[1]));g.addColorStop(1,c(p.sky[2]));
+    ctx.fillStyle=g;ctx.fillRect(0,0,w,h);
+    if(p.stars>.02){for(const st of this.stars){
+      const a=p.stars*(.4+.6*Math.sin(t*1.5+st[3])**2)*(1-st[1]*1.4);
+      ctx.fillStyle=`rgba(255,255,255,${Math.max(0,a)})`;ctx.fillRect(st[0]*w,st[1]*h,st[2],st[2]);
+    }}
+    const sx=w*(.7-this.mx*.03),sy=h*p.sunY,R=Math.min(w,h)*.065;
+    const rg=ctx.createRadialGradient(sx,sy,R*.2,sx,sy,R*9);
+    rg.addColorStop(0,`rgba(${s},.55)`);rg.addColorStop(1,`rgba(${s},0)`);
+    ctx.fillStyle=rg;ctx.fillRect(0,0,w,h);
+    ctx.fillStyle=`rgb(${s})`;ctx.beginPath();ctx.arc(sx,sy,R,0,7);ctx.fill();
+    for(let i=0;i<5;i++){
+      const base=h*(.6+i*.078),amp=h*(.032+i*.011),off=this.mx*this.par*(.01+i*.02),pts=[];
+      for(let x=0;x<=w+6;x+=6){
+        const nx=x/w;
+        pts.push(x,base+Math.sin(nx*(2.6+i*.4)*(1+p.rough*.25)+i*1.7+off*6+t*.04)*amp
+          +Math.sin(nx*(6.3+i)*(1+p.rough*.15)+i*3.1+t*.06)*amp*.4
+          +Math.sin(nx*(13+i*3)+i*2.3)*amp*.1*p.rough);
+      }
+      ctx.beginPath();ctx.moveTo(0,h);for(let k=0;k<pts.length;k+=2)ctx.lineTo(pts[k],pts[k+1]);ctx.lineTo(w+6,h);ctx.closePath();
+      const col=p.dunes[i],gr=ctx.createLinearGradient(0,base-amp,0,base+h*.2);
+      gr.addColorStop(0,c(col));gr.addColorStop(1,c(col.map(v=>v*.7)));ctx.fillStyle=gr;ctx.fill();
+      if(i<3){ctx.beginPath();for(let k=0;k<pts.length;k+=2)k?ctx.lineTo(pts[k],pts[k+1]):ctx.moveTo(pts[k],pts[k+1]);
+        ctx.strokeStyle=`rgba(${s},${.22-i*.06})`;ctx.lineWidth=1.2;ctx.stroke();}
+      if(i===1&&p.kasbah>.02){
+        ctx.save();ctx.globalAlpha=Math.min(1,p.kasbah);
+        const sc=Math.max(.7,w/1000),col2=c(col.map(v=>v*.62)),yb=base+h*.02;
+        this.kasbah(w*.16,yb,sc,col2,h*.14);this.kasbah(w*.6,yb+h*.01,sc*.6,col2,h*.14);
+        ctx.restore();
+      }
+    }
+    for(const d of this.dust){
+      d.x=(d.x+d.v*.0016*(this.speed))%1;
+      const y=(d.y+Math.sin(t*.5+d.p)*.01)*h;
+      ctx.fillStyle=`rgba(${s},${d.a*.5})`;ctx.beginPath();ctx.arc(d.x*w,y,d.r,0,7);ctx.fill();
+    }
+  }
+}
+document.addEventListener('visibilitychange',()=>scenes.forEach(s=>s.kick()));
+
+/* ---------- Nav ---------- */
+const nav=$('#nav');
+const onScroll=()=>nav.classList.toggle('solid',scrollY>40);onScroll();
+addEventListener('scroll',onScroll,{passive:true});
+const burger=$('#burger'),drawer=$('#drawer');
+const toggleDrawer=o=>{burger.setAttribute('aria-expanded',o);drawer.classList.toggle('open',o);document.body.style.overflow=o?'hidden':''};
+burger.addEventListener('click',()=>toggleDrawer(burger.getAttribute('aria-expanded')!=='true'));
+$$('a',drawer).forEach(a=>a.addEventListener('click',()=>toggleDrawer(false)));
+addEventListener('keydown',e=>{if(e.key==='Escape')toggleDrawer(false)});
+const links=$$('.links a');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+['services','reel','territory','rebate','projects','workflow'].forEach(id=>io.observe($('#'+id)));
+
+/* ---------- Hero : lumière qui évolue + timecode ---------- */
+const hero=new Scene($('#heroC'),PAL.hero,{dust:50});
+if(!reduce){const cyc=['hero','heroDawn','heroNight'];let hi=0;setInterval(()=>{if(hero.vis){hi=(hi+1)%cyc.length;hero.set(PAL[cyc[hi]])}},9000)}
+const tc=$('#tc'),t0=performance.now();
+setInterval(()=>{
+  if(document.hidden)return;
+  const s=(performance.now()-t0)/1000,f=Math.floor(s%1*24);
+  tc.textContent=[Math.floor(s/3600),Math.floor(s/60)%60,Math.floor(s)%60,f].map(v=>String(v).padStart(2,'0')).join(':');
+},42);
+
+/* ---------- Showreel viseur ---------- */
+const REEL=[
+  {n:'Aube',l:'Erg Chebbi',pal:'dawn',m:'ISO 800, T2.8, 2.39:1'},
+  {n:'Contre-jour',l:'Haut Atlas',pal:'atlas',m:'ISO 400, T4, 2.39:1'},
+  {n:'Golden hour',l:'Aït Benhaddou',pal:'kasbah',m:'ISO 800, T2.8, 2.39:1'},
+  {n:'Nuit',l:'Ouarzazate',pal:'night',m:'ISO 3200, T1.9, 2.39:1'}
+];
+const reelScene=new Scene($('#reelC'),PAL.dawn,{dust:44});
+const chipsEl=$('#chips');
+REEL.forEach((r,i)=>{
+  const b=document.createElement('button');b.className='chip';b.setAttribute('role','tab');
+  b.innerHTML=`<b>${tr(r.n)}</b>${tr(r.l)}<span class="bar"><i></i></span>`;
+  b.addEventListener('click',()=>setReel(i));chipsEl.appendChild(b);
+});
+let rt;
+function setReel(i){
+  const r=REEL[i];reelScene.set(PAL[r.pal]);
+  setDynamicText($('#vfScene'),r.n);setDynamicText($('#vfLoc'),r.l);setDynamicText($('#vfMeta'),r.m);
+  $$('.chip',chipsEl).forEach((c,k)=>{
+    c.classList.toggle('on',k===i);c.setAttribute('aria-selected',k===i);
+    const bar=$('i',c);bar.style.animation='none';void bar.offsetWidth;bar.style.animation='';
+  });
+  clearTimeout(rt);if(!reduce)rt=setTimeout(()=>setReel((i+1)%REEL.length),6500);
+}
+setReel(0);
+
+/* ---------- Territoires ---------- */
+const LOC={
+  ouarzazate:{t:'Ouarzazate, la porte du désert',d:'Épicentre historique des grandes fresques cinématographiques (Gladiator, Kingdom of Heaven, Game of Thrones). Studios insonorisés, backlots monumentaux à ciel ouvert et infrastructures hôtelières adaptées aux équipes de plus de 300 personnes.',s:['300+ jours de soleil','Aéroport OZZ','Sur place'],c:'30.9335° N, 6.9370° O',tags:['Studios et backlots','Péplum','Séries TV','Hôtellerie équipes'],pal:'golden'},
+  desert:{t:'Merzouga et Erg Chegaga',d:'Étendues de sable doré, crêtes sculptées par le vent et couchers de soleil incomparables. Nous installons des campements autonomes pour vos tournages au cœur du désert.',s:['Golden hours étirées','4x4, environ 1 jour','Basecamp autonome'],c:'31.0990° N, 4.0119° O',tags:['Dunes et crêtes','Campement autonome','Mode et publicité','Expédition'],pal:'dawn'},
+  atlas:{t:'Haut Atlas et canyons escarpés',d:'Falaises ocres, cols sinueux comme le Tizi n\'Tichka et vallées verdoyantes. Idéal pour les courses de véhicules, les plans drone vertigineux et les scènes d\'épopée en montagne.',s:['Lumière contrastée','Environ 2 h 30','Routes et pistes'],c:'31.3320° N, 7.4200° O',tags:['Poursuites auto','Plans drone','Épopée','Cols et gorges'],pal:'atlas'},
+  kasbah:{t:'Aït Benhaddou et kasbahs séculaires',d:'Forteresses de terre crue et ruelles préservées depuis des siècles. Décors d\'une authenticité rare pour les fictions historiques, les drames et les campagnes de mode.',s:['Golden hour','Environ 30 min','Permis spécifique'],c:'31.0470° N, 7.1318° O',tags:['Fiction historique','Mode','Drame','Ksars et ruelles'],pal:'kasbah'}
+};
+const terrScene=new Scene($('#terrC'),PAL.golden,{dust:30});
+const fades=$$('#terr .fade');
+function showLoc(k){
+  const d=LOC[k];fades.forEach(e=>e.classList.add('out'));
+  terrScene.set(PAL[d.pal]);
+  setTimeout(()=>{
+    setDynamicText($('#lTitle'),d.t);setDynamicText($('#lDesc'),d.d);
+    setDynamicText($('#lS1'),d.s[0]);setDynamicText($('#lS2'),d.s[1]);setDynamicText($('#lS3'),d.s[2]);
+    $('#lCoords').textContent=d.c;
+    $('#lTags').innerHTML=d.tags.map(x=>`<span>${tr(x)}</span>`).join('');
+    fades.forEach(e=>e.classList.remove('out'));
+  },reduce?0:220);
+}
+$$('.tab').forEach(b=>b.addEventListener('click',()=>{
+  $$('.tab').forEach(x=>{x.classList.toggle('on',x===b);x.setAttribute('aria-selected',x===b)});
+  showLoc(b.dataset.k);
+}));
+(()=>{const d=LOC.ouarzazate;$('#lDesc').textContent=d.d;setDynamicText($('#lS1'),d.s[0]);setDynamicText($('#lS2'),d.s[1]);setDynamicText($('#lS3'),d.s[2]);$('#lCoords').textContent=d.c;$('#lTags').innerHTML=d.tags.map(x=>`<span>${x}</span>`).join('')})();
+
+/* ---------- Estimateur cash rebate ---------- */
+const amt=$('#amt'),cur=$('#cur'),out=$('#amtOut'),reb=$('#reb'),lgN=$('#lgN');
+const fmt=n=>new Intl.NumberFormat(langLocale()).format(Math.round(n));
+const SYM={MAD:'MAD',EUR:'€',USD:'$'};
+let shown=0,rafT=0;
+function tween(to){
+  cancelAnimationFrame(rafT);const from=shown,t1=performance.now(),sym=SYM[cur.value];
+  const step=t=>{const k=reduce?1:Math.min(1,(t-t1)/450);shown=from+(to-from)*(1-Math.pow(1-k,3));reb.textContent=fmt(shown)+' '+sym;if(k<1)rafT=requestAnimationFrame(step)};
+  rafT=requestAnimationFrame(step);
+}
+function calc(){
+  const v=+amt.value,sym=SYM[cur.value];
+  amt.style.setProperty('--p',((v-amt.min)/(amt.max-amt.min)*100)+'%');
+  out.textContent=fmt(v)+' '+sym;lgN.textContent=fmt(v*.7)+' '+sym;tween(v*.3);
+}
+amt.addEventListener('input',calc);cur.addEventListener('change',calc);calc();
+
+/* ---------- Références ---------- */
+const PROJ=[
+  {t:'SIGA',s:'Long-métrage de fiction, tournage dans le Sud marocain',y:'2020',r:'Production exécutive',pal:'golden'},
+  {t:'Guerlain, Néroli Plein Sud',s:'Campagne internationale de haute parfumerie',y:'2023',r:'Commercial',pal:'rose'},
+  {t:'Off Grid with Archie Hamilton',s:'Série documentaire tout-terrain et expédition',y:'2024',r:'Régie extrême',pal:'offgrid'},
+  {t:'Chef Films',s:'Gastronomie et terroirs, avec H. Darroze et E. Frechon',y:'2022',r:'Docu-série',pal:'amber'},
+  {t:'The Real Housewives',s:'Production télévisuelle internationale',y:'2021',r:'Production support',pal:'magenta'}
+];
+const posterScene=new Scene($('#posterC'),PAL[PROJ[0].pal],{dust:24});
+const pl=$('#plist');
+PROJ.forEach((p,i)=>{
+  const r=document.createElement('div');r.className='prow';r.tabIndex=0;r.setAttribute('role','button');
+  r.innerHTML=`<div><h3>${tr(p.t)}</h3><p>${tr(p.s)}</p></div><div class="meta"><span>${p.y}</span><span class="pill">${tr(p.r)}</span></div>`;
+  const on=()=>{$$('.prow',pl).forEach(x=>x.classList.toggle('on',x===r));posterScene.set(PAL[p.pal]);setDynamicText($('#pTitle'),p.t);$('#pSub').textContent=p.y+', '+tr(p.r)};
+  r.addEventListener('mouseenter',on);r.addEventListener('focus',on);r.addEventListener('click',on);
+  pl.appendChild(r);if(i===0)on();
+});
+
+/* ---------- Formulaire ---------- */
+const form=$('#form'),fb=$('#fb');
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  if(!form.checkValidity()){form.reportValidity();return}
+  const f=new FormData(form);
+  const body=`${tr('Bonjour Clean Minds Films,')}\n\n${tr('Nom :')} ${f.get('name')}\n${tr('Email :')} ${f.get('email')}\n${tr('Projet :')} ${f.get('type')}\n${tr('Période :')} ${f.get('when')||tr('à définir')}\n\n${f.get('msg')}`;
+  const a=document.createElement('a');
+  a.href=`mailto:bouhalbamustapha@gmail.com?subject=${encodeURIComponent(tr('Demande de production :')+' '+f.get('type'))}&body=${encodeURIComponent(body)}`;
+  a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();
+  fb.hidden=false;
+  fb.textContent=tr("Votre application mail s'ouvre avec la demande pré-remplie. Si rien ne s'affiche, écrivez-nous à bouhalbamustapha@gmail.com.");
+});
+
+/* Initial language: preserve visitor choice, French by default */
+applyLang(localStorage.getItem('cmf-lang')||'fr');
+})();
+</script>
+</body>
+</html>
